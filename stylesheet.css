@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+:root { 
+  --main-bg-color: #bd6418;
+  --font1: "Baloo Bhaina 2", cursive;
+  --font2: "Roboto", sans-serif;
+}
+
+.center{
+  text-align: center
+}
+
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.my-2{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* .header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+} */
+
+/* .nav-item {
+  padding-left: 140px;
+} */
+
+.navbar {
+  /* height: 80px; */
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 26px;
+}
+
+.navbar-nav {
+  padding-left: 30px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.content-left h1 {
+  font-size: 80px;
+}
+
+.content-left h2 {
+  font-size: 50px;
+}
+
+.content-left span {
+  color: #ff4a4a;
+}
+
+/* .contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.about {
+  padding-top: 100px;
+  height: 600px;
+}
+
+.about-item {
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.about-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+} */  
+
+.content {
+  height: 100%;
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+}
+
+.content::after {
+  content: "";
+  background-image: url("../img/11.svg");
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  border-radius: 12px;
+}
+
+.content-left {
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 49px;
+  z-index: 1;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  height: 355px;
+  border: 2px solid black;
+  border-radius: 200px;
+}
+
+.home-articles {
+  padding: 18px;
+  background-color: rgb(248, 239, 239, 0.5);
+  margin-top: 23px;
+  position: relative;
+}
+
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+
+.home-article img {
+  width: 300px;
+}
+
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+}
+
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Add CSS for <input> and <textarea> tags */
+/* input , textarea{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border:1px solid #dee7ec;
+} */
+
+.style-button:link, .style-button:visited {
+  background-color: #1daf25;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.style-button:hover, .style-button:active {
+  background-color: rgb(24, 158, 30);
+  padding:16px 27px;
+}
+
+/* a:link, a:visited {
+  background-color: #1daf25;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(24, 158, 30);
+  padding:7px 17px;
+} */
+
+/* Add CSS for contact-submit */
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+/* .footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 400px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+} */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+@media screen and (max-width: 1000px) {
+  .body {
+    text-align: center;
+  }
+
+  .content-right {
+    display: none;
+  }
+  
+  .home-article {
+    flex-direction: column;
+  }
+
+  .home-article-img {
+    text-align: center;
+  }
+
+  .home-article img {
+    width: 30vw;
+  }
+  .content-left h1{
+    font-size: 30px;
+  }
+  .content-left h2{
+    font-size: 20px;
+  }
+  .content-left p{
+    font-size: 12px;
+  }
+  .content-left input{
+    font-size: 8px;
+  }
+  .content-left textarea{
+    font-size: 5px;
+  }
+  .contact-submit{
+    font-size: 5px;
+  }
+}

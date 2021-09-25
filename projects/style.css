@@ -1,0 +1,14 @@
+@media screen and (min-width: 1020px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+}
+body {
+    background-color:rgb(240, 255, 240);
+}

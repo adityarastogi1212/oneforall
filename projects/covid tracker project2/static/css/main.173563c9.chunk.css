@@ -1,0 +1,94 @@
+.Cards_container__k56OZ {
+    margin: 50px 0
+}
+
+.Cards_card__KQcWL {
+    margin: 0 2% !important
+}
+
+.Cards_infected__2ZkyH {
+    background-color: rgba(102, 179, 255, .5) !important;
+    border-bottom: 10px solid rgba(0, 0, 255, .5)
+}
+
+.Cards_recovered__268s8 {
+    background-color: rgba(191, 242, 202, .5) !important;
+    border-bottom: 10px solid rgba(0, 255, 0, .5)
+}
+
+.Cards_deaths__abASg {
+    background-color: rgba(237, 178, 178, .5) !important;
+    border-bottom: 10px solid rgba(255, 0, 0, .5)
+}
+
+.Cards_active__19BsR {
+    background-color: rgba(237, 199, 152, .5) !important;
+    border-bottom: 10px solid rgba(242, 234, 0, .5)
+}
+
+@media (max-width:770px) {
+    .Cards_card__KQcWL {
+        margin: 2% 0 !important
+    }
+}
+
+.Chart_container__2cLo1 {
+    display: flex;
+    justify-content: center;
+    width: 85%
+}
+
+@media (max-width:770px) {
+    .Chart_container__2cLo1,
+    .Chart_image__2miuP {
+        width: 100%
+    }
+}
+
+.CountryPicker_formControl__1rVBs {
+    width: 30%;
+    margin-bottom: 30px !important
+}
+
+body {
+    background-color: #fafafa
+}
+
+.App_container__2xdui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.App_image__Z728r {
+    width: 370px;
+    margin-top: 50px
+}
+
+@media (max-width:770px) {
+    .App_container__2xdui {
+        margin: 0 10%
+    }
+    .App_image__Z728r {
+        width: 100%
+    }
+}
+
+.Footer_container__2FUI5 {
+    display: block;
+    justify-content: center
+}
+
+.Footer_list__1Ekms {
+    li {
+        display: inline-block;
+        a {
+            color: #ccc;
+            font-size: 14px;
+            @include transition
+        }
+    }
+}
+
+/*# sourceMappingURL=main.173563c9.chunk.css.map */
